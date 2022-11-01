@@ -52,7 +52,7 @@ if($mobil == 'jazz'){
         </div>
         <div class="col text-start">
           <div class="container">
-            <form action="invoices.php" method="POST">
+            <form action="invoice.php" method="POST">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input

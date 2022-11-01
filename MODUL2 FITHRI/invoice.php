@@ -1,6 +1,6 @@
 <?php
 $duration = $_POST['duration' ];
-$checkoutDate = strtotime("+ $duration day", strtotime($_POST['']));
+$checkoutDate = strtotime("+ $duration day", strtotime($_POST['date']));
 $total = 0;
 
 if($_POST['car-type'] == 'jazz'){
