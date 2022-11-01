@@ -1,6 +1,6 @@
 <?php
 $duration = $_POST['duration' ];
-$checkoutDate = strtotime("+ $duration day", strtotime($_POST['date']));
+$checkoutDate = strtotime("+ $duration day", strtotime($_POST['']));
 $total = 0;
 
 if($_POST['car-type'] == 'jazz'){
@@ -73,7 +73,7 @@ if(isset($_POST['service'])){
             <td><?= $_POST['phone'] ?></td>
             <td>
               <?php
-                if (isset($_POST['service'])) {
+                if (isset($_POST[''])) {
                   foreach ($_POST['service'] as $service) {
                     ?>
                     <ul>
