@@ -38,7 +38,7 @@
                     id="email"
                     name="email"
                     placeholder="Email"
-                    value="<?php if(isset($['email'])){ echo $_COOKIE['email']; }?>"
+                    value="<?php if(isset($_COOKIE['email'])){ echo $_COOKIE['email']; }?>"
                   />
                 </div>
                 <div class="mb-3">

@@ -7,7 +7,7 @@
       $row = mysqli_fetch_assoc($result);
     }
 
-    if(!isset($['navbar'])){
+    if(!isset($_COOKIE['navbar'])){
       $navbar = 'bg-primary';
     }else{
       $navbar = $_COOKIE['navbar'];

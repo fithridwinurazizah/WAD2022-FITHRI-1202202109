@@ -2,7 +2,7 @@
     require '../config/connector.php';
 
     $query = "SELECT * FROM tabel_mobil";
-    $results = mysqli_query($koneksi, $query);
+    $result = mysqli_query($koneksi, $query);
     ?>
 
     <!DOCTYPE html>

@@ -5,7 +5,7 @@
       header('Location: ../index.php');
     }
 
-    if(isset(['email'])){
+    if(isset($_COOKIE['email'])){
       $email = $_SESSION['email'];
       $query = "SELECT * FROM users WHERE email = '$email'";
       $result = mysqli_query($koneksi, $query);
