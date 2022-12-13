@@ -42,7 +42,7 @@ Route::get('/login', function () {
   ]);
 })->name('login');
 
-Route::post('/login', [UserController::class, 'logins'])->name('loginAction');
+Route::post('/login', [UserController::class, 'login'])->name('loginAction');
 
 Route::get('/register', function () {
   return view('register', ['title' => 'Register']);
